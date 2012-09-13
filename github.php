@@ -1,7 +1,7 @@
 <?php `git pull origin master`;
 	$pull = shell_exec (" git -v pull origin master");
 	$pull2 = `git pull 2>&1`;
-	$who = `whoami >>&`;
+	$who = `whoami >&`;
 	$date = date("D M j G:i:s T Y");
 	echo "hello\n";
 	echo $date;
