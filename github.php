@@ -9,7 +9,7 @@
 	echo (getcwd());
 	$File = "YourFile.txt";
 	$Handle = fopen($File, 'w');
-	$Data = "Jane Doe helllo it finally works\n" . $date . "\n mk dir fuck2: ".$dir . "\npull " .$pull "\npull2";
+	$Data = "Jane Doe helllo it finally works\n" . $date . "\n mk dir fuck2: ".$dir . "\npull " .$pull .  "\npull2" . $pull2;
 	fwrite($Handle, $Data);
 	`git pull origin master`;
 	`git commit -am 'fucker'`;
