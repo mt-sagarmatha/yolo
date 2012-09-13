@@ -1,5 +1,5 @@
 <?php `git pull origin master`;
-	`mkdir fuc`;
+	`mkdir fuck`;
 	$date = date("D M j G:i:s T Y");
 	echo "hello\n";
 	echo $date;
