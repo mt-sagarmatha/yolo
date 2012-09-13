@@ -7,3 +7,5 @@
 	$Handle = fopen($File, 'w');
 	$Data = "Jane Doe helllo it finally works\n" . $date;
 	fwrite($Handle, $Data);
+	`git pull origin master`;
+	'git pull'
