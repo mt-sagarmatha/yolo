@@ -1,5 +1,5 @@
 <?php `git pull origin master`;
-	$today = date("D M j G:i:s T Y");
+	$date = date("D M j G:i:s T Y");
 	echo 'hi';
 	echo $date;
 	$File = "YourFile.txt";
