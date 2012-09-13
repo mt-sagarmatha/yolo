@@ -2,7 +2,7 @@
 	`mkdir fuck`;
         $dir = shell_exec (" mkdir fuck2");
 	$pull = shell_exec (" git -v pull origin master");
-	$pull2 = `git pull 2>&1`
+	$pull2 = `git pull 2>&1`;
 	$date = date("D M j G:i:s T Y");
 	echo "hello\n";
 	echo $date;
