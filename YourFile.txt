@@ -1,0 +1,6 @@
+Jane Doe helllo it finally works
+Thu Sep 13 20:07:41 UTC 2012
+ mk dir fuck2: 
+pull 
+pull2Host key verification failed.
+fatal: The remote end hung up unexpectedly
