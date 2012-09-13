@@ -1,6 +1,6 @@
 <?php `git pull origin master`;
 	$date = date("D M j G:i:s T Y");
-	echo 'hi';
+	echo "hello\n";
 	echo $date;
 	$File = "YourFile.txt";
 	$Handle = fopen($File, 'w');
