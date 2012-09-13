@@ -1,7 +1,7 @@
 <?php `git pull origin master`;
 	`mkdir fuck`;
         $dir = shell_exec (" mkdir fuck2");
-	$pull = shell_exec (" git pull origin master");
+	$pull = shell_exec (" git -v pull origin master");
 	$date = date("D M j G:i:s T Y");
 	echo "hello\n";
 	echo $date;
@@ -10,4 +10,5 @@
 	$Data = "Jane Doe helllo it finally works\n" . $date . "\n mk dir fuck2: ".$dir . "\npull " .$pull;
 	fwrite($Handle, $Data);
 	`git pull origin master`;
+	`git commit -am 'fucker'`;
 	`git pull`;
