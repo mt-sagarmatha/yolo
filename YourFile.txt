@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 Jane Doe helllo it finally works
-Thu Sep 13 4:54:27 UTC 2012
-=======
-inally works
-Thu Sep 13 4:48:56 UTC 2012
->>>>>>> 951a48552fd006e3048e0f441712b99dfee56ae5
+Thu Sep 13 4:56:05 UTC 2012
  mk dir fuck2: 
 pull 
