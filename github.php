@@ -1,16 +1,13 @@
-<?php `git pull origin master`;
-	`mkdir fucking works`;
-        $dir = shell_exec (" mkdir fuck2");
-	$pull = shell_exec (" git -v pull origin master");
-	$pull2 = `git pull 2>&1`;
+<?php   //`git pull origin master`;
+	//$pull = shell_exec (" git -v pull origin master");
+	//$pull2 = `git pull 2>&1`;
+	$who = `whoami 2>&1`;
 	$date = date("D M j G:i:s T Y");
 	echo "hello\n";
 	echo $date;
 	echo (getcwd());
 	$File = "a.txt";
 	$Handle = fopen($File, 'w');
-	$Data = " it finally work?\n" . $date . "\n mk dir fuck2: ".$dir . "\npull " .$pull .  "\npull2" . $pull2;
+	$Data = " it finally work?\n" . $date; // . "\npull " .$pull .  "\npull2" . $pull2;
 	fwrite($Handle, $Data);
-	`git pull origin master`;
-	`git commit -am 'fucker'`;
-	`git pull`;
+
