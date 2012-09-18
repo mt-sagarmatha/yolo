@@ -8,6 +8,6 @@
 	echo (getcwd());
 	$File = "a.txt";
 	$Handle = fopen($File, 'w');
-	$Data = " it finally work?\n" . $date; // . "\npull " .$pull .  "\npull2" . $pull2;
+	$Data = "Does(meow) it finally work?\n" . $date; // . "\npull " .$pull .  "\npull2" . $pull2;
 	fwrite($Handle, $Data);
 
